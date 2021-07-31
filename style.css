@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: lightgray;
+  color: white;
+}
+
+p {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-weight: 500;
+  margin-top: -2px;
+}
+
+h2 {
+  font-weight: 300;
+  color: #FD7014;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+a {
+  border-radius: 5px;
+  text-decoration: none;
+  color: darkgrey;
+}
+
+a:hover {
+  color: black;
+}
+
+#btn {
+  height: 16px;
+  width: 16px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#btn:hover {
+  background-color: #FD7014;
+}
+
+ul li {
+  letter-spacing: 6px;
+  display: inline;
+  list-style-type: none;
+  color: white;
+}
+
+ul {
+  padding: 0px;
+  margin-left: 10px;
+}
+
+.container {
+  margin: 32px auto;
+  width: 50vw;
+  text-align: center;
+}
+
+.first-card {
+  border-radius: 5px;
+  padding: 32px;
+  background-color: rgba(57, 62, 70, 0.9);
+}
+
+.second-card {
+  border-radius: 5px;
+  padding: 32px;
+  margin-top: 32px;
+  background-color: rgba(57, 62, 70, 0.9);
+}
